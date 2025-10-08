@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<!--bu tekrarımızın son bölümü, bu bölümde form elemanlarını öğrendik-->
+<body>
+    <form action="">
+        <label for="isim">ad:</label>
+        <input type="text" name="isim" id="isim"
+        placeholder="Melike" required>
+
+        <br> <br>
+
+        <label for="soyad">soyad:</label>
+        <input type="text" name="soyad" id="soyad"
+        placeholder="Kahraman" required>
+
+        <br><br>
+
+        <label for="sifre">sifre:</label>
+        <input type="text" name="sifre" id="sifre"
+        placeholder="******" maxlength="15">
+
+        <br><br>
+
+        <label for="eposta">e-posta:</label>
+        <input type="email" name="eposta" id="eposta"
+        placeholder="ex@gmail.com">
+
+        <br><br>
+
+        <label for="telefon">tel:</label>
+        <input type="tel" name="telefon" id="telefon"
+        placeholder="(555)-555-5555">
+
+        <br><br>
+
+        <label for="tarih">doğum günü:</label>
+        <input type="date" name="tarih" id="tarih">
+
+        <br><br>
+
+        <label for="kardes"> kardeş sayısı:</label>
+        <input type="number" name="kardes" id="kardes"
+        min="0" max="30">
+
+        <br><br>
+
+        <label for="cinsiyet">cinsiyet:</label>
+        <label for="kadın">Kadın</label>
+        <input type="radio" name="cinsiyet" id="kadın" value="kadın">
+        <label for="erkek">Erkek</label>
+        <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+        <br><br>
+        <label for="sec">seçiniz </label>
+        <select name="sec" id="">
+            <option value="1">seçenek 1</option>
+            <option value="2">seçenek 2</option>
+            <option value="3">seçenek 3</option>
+        </select>
+
+        <br><br>
+
+        <label for="">aktif olarak çalışıyor</label>
+        <input type="checkbox">
+
+        <br><br>
+
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+
+        <br><br>
+
+        <input type="file" accept=".pdf">
+
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
